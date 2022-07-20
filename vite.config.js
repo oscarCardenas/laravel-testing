@@ -4,7 +4,8 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
     server: { 
-        https: true
+        https: true, 
+        host: 'laravel-testing-app.herokuapp.com'
     }, 
     plugins: [
         laravel({
